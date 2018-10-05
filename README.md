@@ -5,11 +5,9 @@ Shell program to convert any text file content as Pascal quoted string variable
 
 - [FreePascal](https://www.freepascal.org/) >= 3.0
 
-## Installation
+## Compilation
 
-### Build
-
-Clone this repository and run
+Clone this repository and run FreePascal compiler.
 
 ```
 $ fpc txt2inc.pas
