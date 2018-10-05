@@ -48,3 +48,9 @@ included in Pascal program/unit source code.
 ```
 {$INCLUDE output.inc}
 ```
+
+## Credit
+
+Original author is irfanbagus
+
+[Multiline string constant discussion](http://forum.lazarus.freepascal.org/index.php?topic=20706.0)
