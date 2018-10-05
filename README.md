@@ -34,11 +34,11 @@ Then output file will contain text as below
 
 ```
 variableName : string =
-'   <html>'#13#10+
-'   <head></head>'#13#10+
-'   <body>'#13#10+
-'       <a href="link.html">Link</a>'#13#10+
-'   </body>'#13#10+
+'   <html>'+#13#10+
+'   <head></head>'+#13#10+
+'   <body>'+#13#10+
+'       <a href="link.html">Link</a>'+#13#10+
+'   </body>'+#13#10+
 '   </html>';
 ```
 

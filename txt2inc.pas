@@ -33,7 +33,7 @@ begin
 
         for i:=0 to src.count-2 do
         begin
-            dst.add('    ' + QuotedStr(src[i]) + '#13#10+');
+            dst.add('    ' + QuotedStr(src[i]) + '+#13#10+');
         end;
 
         if (src.count > 1) then
