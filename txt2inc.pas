@@ -33,7 +33,7 @@ begin
 
         for i:=0 to src.count-2 do
         begin
-            dst.add('    ' + QuotedStr(src[i]) + LineEnding);
+            dst.add('    ' + QuotedStr(src[i]) + ' + LineEnding + ');
         end;
 
         if (src.count > 1) then
