@@ -34,11 +34,11 @@ Then output file will contain text as below
 
 ```
 variableName : string =
-'   <html>'+#13#10+
-'   <head></head>'+#13#10+
-'   <body>'+#13#10+
-'       <a href="link.html">Link</a>'+#13#10+
-'   </body>'+#13#10+
+'   <html>' + LineEnding +
+'   <head></head>' + LineEnding +
+'   <body>' + LineEnding +
+'       <a href="link.html">Link</a>' + LineEnding +
+'   </body>' + LineEnding +
 '   </html>';
 ```
 
@@ -46,7 +46,9 @@ Which actually a valid Pascal string variable declaration, which then can be
 included in Pascal program/unit source code.
 
 ```
-{$INCLUDE output.inc}
+var
+
+    {$INCLUDE output.inc}
 ```
 
 ## Credit
