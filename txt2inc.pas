@@ -36,7 +36,7 @@ begin
             dst.add('    ' + QuotedStr(src[i]) + ' + LineEnding + ');
         end;
 
-        if (src.count > 1) then
+        if (src.count > 0) then
         begin
             dst.add('    ' + QuotedStr(src[src.count-1]) + ';');
         end;
